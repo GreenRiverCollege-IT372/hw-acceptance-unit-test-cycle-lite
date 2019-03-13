@@ -120,39 +120,4 @@ Now when you run `rspec` or `cucumber`, SimpleCov will generate a report in a di
 can intelligently merge the results, so running the tests for Rspec does
 not overwrite the coverage results from SimpleCov and vice versa.
 
-To see the results in Cloud9, open /coverage/index.html. You will see the code, but click the Run button at the top. This will spin up a web server with a link in the console you can click to see your coverage report.
-
 Improve your test coverage by adding unit tests for untested or undertested code.
-
-**Submission:**
-
-Here are the instructions for submitting your assignment for grading. Submit a zip file containing the following files and directories of your app:
-
-* app/
-* config/
-* db/migrate
-* features/
-* spec/
-* Gemfile
-* Gemfile.lock
-
-If you modified any other files, please include them too. If you are on a *nix based system, navigate to the root directory for this assignment and run
-
-```sh
-$ cd ..
-$ zip -r hw6.zip rottenpotatoes/app/ rottenpotatoes/config/ rottenpotatoes/db/migrate rottenpotatoes/features/ rottenpotatoes/spec/ rottenpotatoes/Gemfile rottenpotatoes/Gemfile.lock
-```
-
-This will create the file hw6.zip, which you will submit.
-
-IMPORTANT NOTE: Your submission must be zipped inside a rottenpotatoes/ folder so that it looks like so:
-
-```
-$ tree
-.
-└── rottenpotatoes
-    ├── Gemfile
-    ├── Gemfile.lock
-    ├── app
-    ...
-```
